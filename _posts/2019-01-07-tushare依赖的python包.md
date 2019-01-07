@@ -11,6 +11,9 @@ tags:
     - python包
 ---
 
+> tushare依赖的python包：
+>   pyzmq，simplejson，lxml，six，python-dateutil，numpy，
+>   pytz，pandas，idns，chardet，certifi，urllib3，requests，msgpack
 
 ### pyzmq
 - Pyzmq是zeromq的Python绑定。zeromq是一个消息内核，从网络通信的角度看，它处于会话层之上，应用层之下，有了它，你甚至不需要自己写一行的socket函数调用就能完成复杂的网络通信工作。Pyzmq >= 2.2.0完全支持3.x和4.x的libzmq，但不支持PyPy上的libzmq 2。
